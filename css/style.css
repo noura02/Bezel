@@ -3,7 +3,8 @@ body{
     overflow: hidden;
 }
 html{
-    scroll-behavior:smooth
+    scroll-behavior:smooth;
+    overflow-x: hidden;
 }
 .h2-style {
     color: #eee;
