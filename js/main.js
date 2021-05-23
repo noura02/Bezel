@@ -21,7 +21,7 @@ $(window).scroll(function(){
 
     //loader
     $(document).ready(function(){
-      $('.loader').fadeOut(2000,function(){
+      $('.loader').fadeOut(3000,function(){
           $('body').css('overflow','visible')
       })
         }); 
