@@ -65,6 +65,13 @@ html{
     transition: all 0.5s;
     color: #fff;
 }
+.nav-link{
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
 }
@@ -399,5 +406,9 @@ svg{
 }
 }
 
+@media screen and (max-width:500px){
+    .caption h1 , .caption h2{
+        font-size: 70px;
+    }
 }
 
